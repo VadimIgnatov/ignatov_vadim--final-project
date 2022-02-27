@@ -1,0 +1,95 @@
+#profile {
+    display: block;
+    float: left;
+    height: 200px;
+    width: auto;
+    }
+#profile:hover {
+    transform: scale(1.15);
+    transition: ease-in-out, 2000ms;
+
+    }
+#yt {
+    height: 50px;
+    width: auto;
+    opacity: 50%;
+ 
+ 
+}
+#yt:hover{
+    
+  transition: transform .7s ease-in-out;
+  transform: rotate(360deg);
+
+}
+#insta {
+    height: 50px;
+    width: auto;
+    opacity: 50%;
+    
+    
+}
+#insta:hover {
+   
+  transition: transform .7s ease-in-out;
+  transform: rotate(360deg);
+
+}
+#fb {
+    height: 50px;
+    width: auto;
+    opacity: 50%;
+  
+
+}
+#fb:hover {
+    
+  transition: transform .7s ease-in-out;
+  transform: rotate(360deg);
+}
+
+
+.card:hover {
+    background-color: rgb(115, 233, 233);
+    transform: translateY(10px);
+    transition: transform 450ms;
+}
+
+#one:hover{
+    background-color: rgb(115, 233, 233);
+    transform: translateY(10px);
+    transition: transform 450ms;
+    transform: scale(1.2);
+    z-index: 2;
+    border-style: solid;
+    border-color: black;
+}
+
+#two:hover{
+    background-color: rgb(115, 233, 233);
+    transform: translateY(10px);
+    transition: transform 450ms;
+    transform: scale(1.2);
+    border-style: solid;
+    border-color: black;
+    z-index: 2;
+}
+#three:hover{
+    background-color: rgb(115, 233, 233);
+    transform: translateY(10px);
+    transition: transform 450ms;
+    transform: scale(1.2);
+    border-style: solid;
+    border-color: black;
+    z-index: 2;
+}
+#four:hover{
+    background-color: rgb(115, 233, 233);
+    transform: translateY(10px);
+    transform: scale(1.2);
+    transition: transform 450ms;
+    border-style: solid;
+    border-color: black;
+
+    z-index: 2;
+}
